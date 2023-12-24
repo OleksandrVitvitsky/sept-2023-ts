@@ -60,7 +60,6 @@ class NoteBook {
     }
     private _delTodo(): void {
         const todosDiv = document.querySelector('#todos') as HTMLDivElement;
-        let nameLS:string = this.name;
         let _this:object = this;
         todosDiv.addEventListener("click", function (event) {
             if (event.target.tagName.toLowerCase() == 'button') {
