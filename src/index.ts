@@ -76,10 +76,7 @@ class NoteBook {
                }
             }
         });
-
-
     }
-
 }
 
 let notebook: object;
